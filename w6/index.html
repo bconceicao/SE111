@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--The type of font we are using-->
+    <meta charset="UTF-8">
+    <!--Tells the -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Brian Conceicao">
+    <meta name="description" content="Javascript Pay Calculator">
+<body>
+
+    <h1>
+        Week 6 | Pay Calculator
+    </h1>
+
+    <script>
+
+        var payHourly = prompt("Enter Hourly Pay Rate: $")
+        Number(payHourly)
+        var hours = prompt("Enter Total Hours Worked: ")
+        Number(hours)
+        var taxRate = (.2)
+        var netPay = (payHourly * hours)
+        var taxTotal = (netPay * taxRate)
+        var grossPay = (netPay - taxTotal)
+
+        alert('Total Net Pay:$'+ (netPay) + '\nTotal Taxes Witheld: $' + (taxTotal) + '\nTotal Gross Pay: $' + (grossPay))
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+</body>
