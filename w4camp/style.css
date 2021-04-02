@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+html{
+
+position: relative;
+width: auto;
+
+background: black;
+mix-blend-mode: normal;
+}
+
+
+
+header{
+    background-color: black;
+    color: red;
+    
+
+    
+}
+
+#campCryText{
+
+    padding-top: 30px;
+}
+    
+
+#youtube{
+    
+    padding: 10px;
+    float: right;
+    width: 69px;
+}
+
+#snapchat{
+    
+    padding: 10px;
+    float: right;
+    width: 69px;
+
+}
+
+#twitter{
+    
+    padding: 10px;
+    
+    float: right;
+    width: 69px;
+      
+}
+
+#banner{
+    float:left;
+    padding: 30px;
+}
+
+#sign{
+    float: right;
+    padding: 30px;
+}
+
+    
+
+
+
+footer{
+    color: red
+}
