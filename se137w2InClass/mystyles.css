@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.yellow-bg{
+    background-color: yellow;
+    color: red;
+    font-size: 36px;
+}
+
+#my-div{
+    background-color: aquamarine;
+    color: blue;
+    font-size: 24px;
+}
+
+div{
+    background-color: grey;
+    color: orange;
+    font-size: 40px;
+}
+
+a:link, a:visited{
+    color: peach;
+    font-size: 20px;
+
+}
+
+a:hover, div:hover{
+    color: paleturquoise;
+}
+a:active{
+    color: palevioletred;
+}

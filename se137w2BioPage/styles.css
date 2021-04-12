@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+
+html{
+    background-color: lightgrey;
+}
+h1{
+    background-image: radial-gradient(darkgrey, black);
+    padding: 20px;
+    border-bottom: grey;
+    text-align: center;
+    font-family: 'Train One', cursive;
+    color: darkred;
+}
+
+h2{
+    font-family: 'Train One', cursive;
+    color: darkred;
+}
+.hide{
+    display: none;
+}
+
+body{
+    background-image: radial-gradient(white, darkgrey, grey);
+    margin-bottom: 20px;
+}
+
+ul{
+    display: block;
+    list-style-type: square;
+
+}
+
+
+
+ul li{
+    list-style-type: square;
+    display: block;
+    background-image: linear-gradient(darkgrey, grey);
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+
+ol li{
+    display: block;
+    background-image: linear-gradient(darkgrey, grey);
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+li a{
+    color: darkred;
+}
+li a:hover{
+    color: white;
+}
+
+footer a{
+    color: darkred;
+}
+
+footer a:hover{
+    color: white;
+}
+
+a:hover{
+
+    color: white;
+
+}
+
+nav a{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: darkgrey;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.nav{
+    background-image: radial-gradient(darkgrey, black);
+    text-align: center;
+    padding: 12px;
+    
+}
+
+button{
+    background-color: darkgrey;
+}
+
+img{
+    padding: 10px;
+}
+
+a{
+    display: inline-block;
+}
+
+#bio p{
+    
+    font-size: 14pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+footer{
+    padding-top: 20px;
+    text-align: center;
+    
+}
+
+
+

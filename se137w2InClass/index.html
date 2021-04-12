@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author"  content="brian conceicao">
+    <title>Week 2 In-Class</title>
+    <link rel="stylesheet" href="mystyles.css">
+
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+
+    <a href="#">This is a link</a>
+    
+    <div class = "yellow-bg">
+
+        <p>Yellow-bg class</p>
+
+    </div>
+
+    <div id="my-div">
+        <p>this ID my-div</p>
+
+    </div>
+
+    <div>
+        <p>This is just a div</p>
+    </div>
+
+    <script>
+        var myDiv = document.querySelector('#my-div');
+        myDiv.style.border = "1px solid black"
+
+        var myDivs = document.querySelectorAll('div');
+        console.log(myDivs);
+
+        for(let i=0; i<myDivs.length; i++)
+        {
+            myDivs[i].style.marginBottom="24px";
+        }
+
+    </script>
+
+    
+</body>
+
+
+</html>

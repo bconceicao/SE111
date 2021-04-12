@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2 | Bio</title>
+    <meta name="description" content="Week 2 Bio Page">
+    <meta name="author" content="Brian Conceicao">
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    
+    <h1>Brian Conceicao</h1>
+    
+    <div id = "nav" class = "nav">
+        <nav>
+            <button class="button"><a href=# id="bio-link"> BIO </a></button>
+            <button class="button"><a href=# id="ed-link"> SCHOOLING </a></button>
+            <button class="button"><a href=# id="hobbies-link"> HOBBIES </a></button>
+        </nav>
+    </div>
+   
+
+    <div id = "main">
+
+        <div id = "bio">
+
+            <h2>My Bio</h2>
+
+            <img src="images/wedding.jpg" class="image" alt="Castiel the Cat" style="width:300px;height:200px;">
+            
+            <p id="p1">
+                I was born on May 26, 1991 in Rhode Island. I have lived in RI my whole life, however a couple years ago I made the big leap of moving from Cranston all the way to Warwick. I live with my wife Sammy, and our cat Castiel. On top of class, I currently also work at Honeywell in the n95 department.
+            </p>  
+
+            
+
+            
+
+        </div>
+
+        <div id = "ed"  class = "hide">
+
+            <h2>Schooling</h2>
+
+            <ol>
+                <li>Cranston High School East</li>
+                <li>Community College of Rhode Island</li>
+                <li><a href=https://www.mtti.edu target="_blank"> MotoRing Techinical Training Institute </a> </li>
+            </ol>
+            
+        
+        </div>
+
+        <div id = "hobbies"  class = "hide">
+
+            <h2> HOBBIES</h2>
+
+            <ul>
+                <li>Sports, virutally all aspects</li>
+                <li>Exercise and fitness</li>
+                <li>Videogames</li>
+            </ul>
+            <img src="images/ncaafootball.jpeg" alt="Best Videogame Ever" style="width:135px;height:200px;"> 
+
+        </div>            
+        
+    </div>
+
+
+    <script>
+
+        //links
+        var bioLink = document.querySelector(`#bio-link`)
+        var edLink = document.querySelector(`#ed-link`)
+        var hobbiesLink = document.querySelector(`#hobbies-link`)
+    
+        //divs
+        var bio = document.querySelector(`#bio`)
+        var ed = document.querySelector(`#ed`)
+        var hobbies = document.querySelector(`#hobbies`)
+    
+    
+        edLink.addEventListener(`click`, showEd)
+        function showEd(e){
+            e.preventDefault();
+    
+            ed.classList.remove(`hide`)
+            bio.classList.add(`hide`)
+            hobbies.classList.add(`hide`)
+        
+        }
+    
+        hobbiesLink.addEventListener(`click`, showHobbies)
+        function showHobbies(e){
+            e.preventDefault();
+    
+            hobbies.classList.remove(`hide`)
+            ed.classList.add(`hide`)
+            bio.classList.add(`hide`)
+        
+        }
+
+        bioLink.addEventListener(`click`, showBio)
+        function showBio(e){
+            e.preventDefault();
+    
+            bio.classList.remove(`hide`)
+            ed.classList.add(`hide`)
+            hobbies.classList.add(`hide`)
+        
+        }
+    
+    
+    
+    
+    </script>
+    
+</body>
+
+
+<footer>
+    <p><a href=file:///C:/Users/conce/Desktop/SE111/w1-bio/index.html#header>Back To Top</a> ©2021 Brian Conceicao | W2 Assignment</p>
+</footer>
+
+
+</html>
