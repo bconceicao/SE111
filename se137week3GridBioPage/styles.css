@@ -1,0 +1,129 @@
+html{
+    background-color: white;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+header{
+    grid-column: 1 / span 5;
+    
+    font-family: 'Train One', cursive;
+}
+
+main{
+    grid-column: 1 / span 5;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+footer{
+    color: whitesmoke;
+    margin-top: 20px;
+    grid-column: 1 / span 5;
+    border-top: 2px groove;
+    padding-left: 5px;
+}
+
+#bio{
+    grid-column: 1/ span 5;
+    grid-row: 1 / span 1;
+    padding: 5px;
+    margin-bottom: 5px;
+    
+}
+
+#hobbies{
+    
+    grid-column: 1 / span 3;
+    grid-row: 2 / span 1;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+   
+}
+ul{
+    grid-column: 1 / span 1;
+}
+#hobbies img{
+    grid-column: 2 / span 1;
+    
+    
+}
+
+#ed{
+    grid-column: 4 / span 2;
+    grid-row: 2 / span 1;
+    padding-left: 10px;
+    border-left: 2px groove;
+}
+
+h1{
+    font-family: 'Train One', cursive;
+    color:whitesmoke;
+    padding-left: 5px;
+}
+
+#hobbies h2{
+    padding-left: 5px;
+}
+
+h2{
+    font-family: 'Train One', cursive;
+    color:whitesmoke;
+    
+}
+
+#bio p{
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    border: 2px groove;
+}
+
+ul{
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol{
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#bio h2{
+    text-align: center;
+}
+
+li{
+    padding: 5px;
+}
