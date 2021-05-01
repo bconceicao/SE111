@@ -1,7 +1,4 @@
 html body{
-    max-width: 1820px;
-    margin: 0;
-    padding:0;
     background-color: #070707
 }
 
@@ -12,7 +9,7 @@ body{
 }
 
 #container{
-    width: 100%;
+    width: 1820px;
     margin: 0;
 }
 
@@ -22,6 +19,7 @@ header{
     justify-content: space-between;
     width: 100%;
     align-items: flex-end;
+    margin-right: 10px;
 }
 
 header img{
@@ -43,9 +41,8 @@ main{
 
     display: grid;
     grid-template-areas: "banner banner banner banner aside"
-                         "left left right right aside";
+                         "bottom bottom bottom bottom aside";
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 50% 50%;
     grid-column-gap:10px;
 }
 
@@ -53,8 +50,8 @@ main{
     grid-area: banner;
     background-image: url('images/BANNERcclMain.png');
     height: 388px;
-    background-size: 1440px auto;
-    width: 1440px;
+    background-size: auto;
+    width: ;
 }
 
 aside{
@@ -69,6 +66,7 @@ aside{
     justify-content: space-between;
     background-color: #393939;
     padding-bottom: 28px;
+    width: 354px;
 }
 p span{
     color:#FC0303;
@@ -80,9 +78,16 @@ aside img{
     padding: "25px 18px 0px 17px"
 }
 
+#bottom{
+    margin-top: 20px;
+    grid-area: bottom;
+    display: flex;
+    justify-content: space-between;
+}
+
 #left{
     font-family: 'Poppins', sans-serif;
-    grid-area: left;
+    
     display: grid;
     grid-template-areas: "poster left-text";
     color: #ffffff;
@@ -92,7 +97,20 @@ aside img{
     padding-left: 22px;
     background-color: #393939;
     padding-bottom: 28px;
+    margin-right: 10px;
 }
+
+#right{
+    font-family: 'Poppins', sans-serif;
+    
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 36px;
+    background-color: #393939;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 #poster{
     grid-area: poster;
     padding-right: 19px;
@@ -108,22 +126,14 @@ aside img{
     height:"450px";
 }
 
-#right{
-    font-family: 'Poppins', sans-serif;
-    grid-area: right;
-    color: #ffffff;
-    font-size: 24px;
-    line-height: 36px;
-    background-color: #393939;
-}
+
 #pennant{
-    width:"641px"; 
-    height:"229px";
+    width:"641px";
     padding: "19px 35px 19px 24px";
 }
 
 #amazon-pic{
-    width:"191px"; 
+    width:"117px"; 
     height:"157px";
 }
 
