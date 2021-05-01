@@ -1,0 +1,133 @@
+html body{
+    max-width: 1820px;
+    margin: 0;
+    padding:0;
+    background-color: #070707
+}
+
+body{
+    background-color:#282828;
+    display:flex;
+    justify-content: center;
+}
+
+#container{
+    width: 100%;
+    margin: 0;
+}
+
+header{
+    background-color: #070707;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-end;
+}
+
+header img{
+    padding-left: 30px;
+    padding-bottom: 16px;
+}
+
+#icons img{
+    height: 60px;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    padding-right: 12px;
+    
+}
+
+main{
+
+    background-color:#282828;
+
+    display: grid;
+    grid-template-areas: "banner banner banner banner aside"
+                         "left left right right aside";
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 50% 50%;
+    grid-column-gap:10px;
+}
+
+#banner{
+    grid-area: banner;
+    background-image: url('images/BANNERcclMain.png');
+    height: 388px;
+    background-size: 1440px auto;
+    width: 1440px;
+}
+
+aside{
+    font-family: 'Poppins', sans-serif;
+    grid-area: aside;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 21px;
+    line-height: 21.09px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #393939;
+    padding-bottom: 28px;
+}
+p span{
+    color:#FC0303;
+    font-weight:bold;
+}
+aside img{
+    width:"325px"; 
+    height:"254px";
+    padding: "25px 18px 0px 17px"
+}
+
+#left{
+    font-family: 'Poppins', sans-serif;
+    grid-area: left;
+    display: grid;
+    grid-template-areas: "poster left-text";
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400px;
+    padding-left: 22px;
+    background-color: #393939;
+    padding-bottom: 28px;
+}
+#poster{
+    grid-area: poster;
+    padding-right: 19px;
+   
+}
+#left-text{
+    grid-area: left-text;
+    
+}
+
+#posterpic{
+    width:"310px";
+    height:"450px";
+}
+
+#right{
+    font-family: 'Poppins', sans-serif;
+    grid-area: right;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 36px;
+    background-color: #393939;
+}
+#pennant{
+    width:"641px"; 
+    height:"229px";
+    padding: "19px 35px 19px 24px";
+}
+
+#amazon-pic{
+    width:"191px"; 
+    height:"157px";
+}
+
+footer p{
+    color:#ffffff;
+    padding:"21px 0px 22px 30px"
+}
