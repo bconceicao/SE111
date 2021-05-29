@@ -1,0 +1,105 @@
+html, body{
+    margin:0;
+    height:100vh;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+table{
+    width:80%;
+    border-collapse: collapse;
+}
+ td{
+    border-bottom:1px solid black;
+}
+
+@media only screen and (max-width: 1920px) {
+    body {
+      background-color: white;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    h1{
+        font-size: 1.5em;
+    }
+
+    .big{
+        visibility: visible;
+    }
+    .small{
+        visibility: hidden;
+    }
+    thead{
+        font-size: 1em;
+        background-color: lightgray;
+    }
+    .td{
+        font-size: 1em;
+    }    
+    
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+      background-color: blue;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1{
+        font-size: 1.5em;
+    }
+
+    .big{
+        visibility: hidden;
+    }
+
+    .small{
+        visibility: visible;
+    }
+
+    thead{
+        font-size: 1em;
+        background-color: lightblue;
+    }
+    .td{
+        font-size: 1em;
+    } 
+    
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+      background-color: green;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+    
+    .stat{
+        display: none;
+    }
+    
+
+    .big{
+        visibility: hidden;
+    }
+
+    .small{
+        visibility: visible;
+    }
+
+    thead{
+        font-size: 1.5em;
+        background-color: lightgreen;
+    }
+    .td{
+        font-size: 1.25em;
+    } 
+}
+
+
+  
